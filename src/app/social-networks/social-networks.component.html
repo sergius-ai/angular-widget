@@ -1,0 +1,10 @@
+<div class="social-icons w3agile">
+  <ul> 
+    <li *ngFor="let SocialNetworks of socialNetworksService.social">
+      <a href="#{{SocialNetworks.href}}" class="{{SocialNetworks.class}}">
+        <img src="{{SocialNetworks.image}}" title="{{SocialNetworks.title}}" alt="{{SocialNetworks.alter}}">
+      </a>
+    </li>
+    <div class="clear"></div>
+  </ul>
+</div>

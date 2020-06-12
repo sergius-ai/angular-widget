@@ -1,0 +1,10 @@
+img {
+  max-width: 400px;
+  max-height: 200px;
+  display: grid;
+  justify-content: center;
+}
+.for {
+  display: grid;
+  justify-content: center;
+}

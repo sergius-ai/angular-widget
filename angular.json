@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-widget"
+    }
+  },
+  "defaultProject": "angular-widget",
+  "cli": {
+    "analytics": false
+  }
 }
